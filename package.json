@@ -1,5 +1,5 @@
 {
-  "name": "ui-library",
+  "name": "@diegoemg996/ui-library",
   "version": "1.0.0",
   "description": "A react component library",
   "scripts": {
@@ -23,5 +23,12 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/diegoemg996"
+  },
+  "dependencies": {
+    "prop-types": "^15.8.1",
+    "rollup-plugin-postcss": "^4.0.2"
+  }
 }
